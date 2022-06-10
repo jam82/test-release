@@ -63,6 +63,10 @@ venv: FORCE
 add:
 	@git add .
 
+.PHONY:
+changelog:
+	@$(release) changelog
+
 .PHONY: check
 check: add
 	@$(check) run
@@ -73,18 +77,18 @@ clean:
 
 .PHONY: commit
 commit: add
-	git commit || true
+	@git commit || true
 
 .PHONY: push
 push: commit
-	git push
+	@git push
 
 .PHONY: pull
 pull:
-	git pull
+	@git pull
 
 .PHONY: release
-release: push
+release: changelog push
 	@$(release) publish
 
 FORCE: ;
