@@ -65,7 +65,7 @@ clean:
 .PHONY: commit
 commit:
 	git add .
-	git commit
+	git commit || true
 
 .PHONY: push
 push: commit
