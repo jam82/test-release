@@ -2,23 +2,22 @@
 
 <!--next-version-placeholder-->
 
-## v0.1.1 (2022-06-11)
+## v0.2.0 (2022-06-11)
 
+### Feature
 
-## v0.1.1 (2022-06-11)
-
-
-## v0.1.1 (2022-06-11)
-
+* Add and check ([`26fce7d`](https://github.com/jam82/test-release/commit/26fce7d2e7b7cb0790be852f7c4ac189abaa10fc))
 
 ## v0.1.1 (2022-06-11)
-
 
 ## v0.1.0 (2022-06-11)
+
 ### Feature
+
 * **first-version-of-Makefile:** Added Makefile for git and repo management ([`cda4d89`](https://github.com/jam82/test-release/commit/cda4d89fb22a1db8d425851da490d42f0570864c))
 
 ### Fix
+
 * Replace cz ([`587cfa8`](https://github.com/jam82/test-release/commit/587cfa8cfa2ba8c2954dbd1567fde798ee0fb523))
 * **grrrrr:** This is annoying ([`09f5241`](https://github.com/jam82/test-release/commit/09f52415ec603296ba5fee84dd53d00f4b99763b))
 * **facepalm:** Confused message and subject ([`d4bdfee`](https://github.com/jam82/test-release/commit/d4bdfee69a476ffb5a2655e0ef2b7d4e6704e952))
