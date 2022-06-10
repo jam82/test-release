@@ -1,5 +1,4 @@
 # file: .gitlint
-# version: 0.0.0
 
 [ignore-by-author-name]
 regex=(.*)semantic-release(.*)
