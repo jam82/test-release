@@ -71,6 +71,10 @@ commit:
 push: commit
 	git push
 
+.PHONY: pull
+push:
+	git pull
+
 .PHONY: release
 release: push
 	@$(release) publish
