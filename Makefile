@@ -65,7 +65,7 @@ clean:
 .PHONY: commit
 commit:
 	git add .
-	$(cz) commit
+	git commit
 
 .PHONY: release
 release:

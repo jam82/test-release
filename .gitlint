@@ -1,0 +1,3 @@
+[ignore-by-author-name]
+regex=(.*)semantic-release(.*)
+ignore=all
