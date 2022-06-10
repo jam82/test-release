@@ -67,8 +67,12 @@ commit:
 	git add .
 	git commit
 
+.PHONY: push
+push: commit
+	git push
+
 .PHONY: release
-release:
+release: push
 	@$(semantic-release) publish
 
 FORCE: ;
