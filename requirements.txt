@@ -1,0 +1,5 @@
+ansible
+ansible-lint
+commitizen
+pre-commit
+python-semantic-release
