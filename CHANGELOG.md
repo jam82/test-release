@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2022-06-11)
+
+
+## v0.1.1 (2022-06-11)
+
+
 ## v0.1.0 (2022-06-11)
 ### Feature
 * **first-version-of-Makefile:** Added Makefile for git and repo management ([`cda4d89`](https://github.com/jam82/test-release/commit/cda4d89fb22a1db8d425851da490d42f0570864c))
