@@ -22,6 +22,7 @@ pre-commit     := .git/hooks/pre-commit
 
 venv           := .env
 activate       := source $(venv)/bin/activate
+check          := $(venv)/bin/pre-commit
 cz             := $(venv)/bin/cz
 pip            := $(venv)/bin/pip
 python         := $(venv)/bin/python
@@ -58,13 +59,20 @@ venv: FORCE
 
 # end of init targets ##########################################################
 
+.PHONY: add
+add:
+	@git add .
+
+.PHONY: check
+check: add
+	@$(check) run
+
 .PHONY: clean
 clean:
 	@rm -rf .env
 
 .PHONY: commit
-commit:
-	git add .
+commit: add
 	git commit || true
 
 .PHONY: push
@@ -72,7 +80,7 @@ push: commit
 	git push
 
 .PHONY: pull
-push:
+pull:
 	git pull
 
 .PHONY: release
