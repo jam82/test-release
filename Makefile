@@ -25,7 +25,7 @@ activate       := source $(venv)/bin/activate
 cz             := $(venv)/bin/cz
 pip            := $(venv)/bin/pip
 python         := $(venv)/bin/python
-sematic_release:= $(venv)/bin/semantic-release
+release        := $(venv)/bin/semantic-release
 
 # init targets #################################################################
 
@@ -73,6 +73,6 @@ push: commit
 
 .PHONY: release
 release: push
-	@$(semantic-release) publish
+	@$(release) publish
 
 FORCE: ;
