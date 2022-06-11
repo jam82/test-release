@@ -28,6 +28,7 @@ pip            := $(venv)/bin/pip
 python         := $(venv)/bin/python
 release        := $(venv)/bin/semantic-release
 
+export GH_TOKEN:= $(shell keyring get jam82 gh_token)
 # init targets #################################################################
 
 .git:
