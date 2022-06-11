@@ -3,16 +3,14 @@
 <!--next-version-placeholder-->
 
 ## v0.2.0 (2022-06-11)
-### Feature
-* **README:** Add a readme ([`17ea5a7`](https://github.com/jam82/test-release/commit/17ea5a71ab1a9866e3138b3baf8d53821b83172a))
 
-## v0.2.0 (2022-06-11)
+### Feature
+
+* **README:** Add a readme ([`17ea5a7`](https://github.com/jam82/test-release/commit/17ea5a71ab1a9866e3138b3baf8d53821b83172a))
 
 ### Feature
 
 * Add and check ([`26fce7d`](https://github.com/jam82/test-release/commit/26fce7d2e7b7cb0790be852f7c4ac189abaa10fc))
-
-## v0.1.1 (2022-06-11)
 
 ## v0.1.0 (2022-06-11)
 
