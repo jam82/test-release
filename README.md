@@ -4,6 +4,9 @@ Justing testing python-semantic-release with pre-commit, commitizen and the like
 
 ## Dependencies
 
+- make
+- python3-pip
+
 ## Usage
 
 ## Examples
